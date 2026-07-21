@@ -15,3 +15,5 @@ results/**/*
 !results/**/beeswarmplot_calibrated.png
 !results/**/raw_res_per_patient.csv
 !results/**/calibration_metrics_calibrated.csv
+
+results/**/FutureFalls
