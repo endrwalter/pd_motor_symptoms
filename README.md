@@ -2,6 +2,10 @@
 
 Official repository for the paper: **"Explainable machine learning reveals the challenges of predicting new-onset motor complications in Parkinson’s disease"** 
 
+<p align="center">
+  <img src="code_other_analysis/images/methods_test.png" alt="Machine Learning Workflow and Experimental Conditions" width="800"/>
+</p>
+
 ##  Overview
 Predicting new-onset motor fluctuations and levodopa-induced dyskinesias (LID) is crucial for optimizing Parkinson’s disease management. This repository contains the machine learning methodology and evaluation framework developed to conduct a rigorous "stress-test" on the prognostic value of baseline clinical features. 
 
