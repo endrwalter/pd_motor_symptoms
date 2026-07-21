@@ -1,0 +1,38 @@
+analysis,,no_bl_info_for_training,no_bl_info_for_training,no_active_patients_at_bl_drop,no_bl_info_for_training_random_drop,no_bl_info_for_training_random_drop
+,,all_summary,subset_dysk_summary,all_summary,all_summary,subset_dysk_summary
+model,Metric,,,,,
+extratreesclassifier,AUC,0.70 ± 0.08,0.65 ± 0.11,0.62 ± 0.11,0.70 ± 0.09,0.64 ± 0.13
+extratreesclassifier,F1,0.35 ± 0.15,0.32 ± 0.18,0.01 ± 0.04,0.29 ± 0.17,0.27 ± 0.17
+extratreesclassifier,MCC,0.33 ± 0.12,0.30 ± 0.17,0.01 ± 0.06,0.27 ± 0.15,0.25 ± 0.18
+extratreesclassifier,Sensitivity,0.24 ± 0.13,0.23 ± 0.15,0.01 ± 0.03,0.21 ± 0.15,0.20 ± 0.15
+extratreesclassifier,Specificity,0.97 ± 0.03,0.97 ± 0.03,1.00 ± 0.01,0.96 ± 0.05,0.96 ± 0.05
+logisticregression,AUC,0.75 ± 0.07,0.73 ± 0.10,0.72 ± 0.09,0.75 ± 0.09,0.70 ± 0.12
+logisticregression,F1,0.48 ± 0.14,0.42 ± 0.18,0.13 ± 0.13,0.44 ± 0.14,0.33 ± 0.20
+logisticregression,MCC,0.42 ± 0.14,0.37 ± 0.17,0.13 ± 0.14,0.38 ± 0.14,0.27 ± 0.21
+logisticregression,Sensitivity,0.36 ± 0.13,0.32 ± 0.16,0.08 ± 0.10,0.34 ± 0.15,0.26 ± 0.18
+logisticregression,Specificity,0.96 ± 0.03,0.95 ± 0.04,0.98 ± 0.02,0.94 ± 0.07,0.94 ± 0.06
+randomforestclassifier,AUC,0.73 ± 0.07,0.68 ± 0.10,0.68 ± 0.10,0.73 ± 0.10,0.67 ± 0.13
+randomforestclassifier,F1,0.49 ± 0.11,0.43 ± 0.15,0.07 ± 0.13,0.46 ± 0.17,0.36 ± 0.20
+randomforestclassifier,MCC,0.43 ± 0.12,0.39 ± 0.16,0.09 ± 0.15,0.41 ± 0.15,0.32 ± 0.20
+randomforestclassifier,Sensitivity,0.36 ± 0.11,0.32 ± 0.13,0.04 ± 0.09,0.35 ± 0.16,0.28 ± 0.18
+randomforestclassifier,Specificity,0.96 ± 0.04,0.96 ± 0.04,1.00 ± 0.01,0.96 ± 0.05,0.96 ± 0.05
+stacking,AUC,0.74 ± 0.08,0.71 ± 0.10,0.70 ± 0.09,0.76 ± 0.09,0.70 ± 0.13
+stacking,F1,0.52 ± 0.13,0.47 ± 0.15,0.18 ± 0.16,0.49 ± 0.15,0.41 ± 0.18
+stacking,MCC,0.45 ± 0.14,0.42 ± 0.17,0.21 ± 0.18,0.43 ± 0.15,0.37 ± 0.18
+stacking,Sensitivity,0.40 ± 0.13,0.37 ± 0.15,0.11 ± 0.10,0.38 ± 0.16,0.33 ± 0.17
+stacking,Specificity,0.95 ± 0.04,0.95 ± 0.04,0.99 ± 0.01,0.95 ± 0.05,0.95 ± 0.05
+svc,AUC,0.74 ± 0.07,0.73 ± 0.09,0.71 ± 0.10,0.75 ± 0.08,0.70 ± 0.10
+svc,F1,0.50 ± 0.12,0.45 ± 0.16,0.16 ± 0.13,0.52 ± 0.13,0.41 ± 0.15
+svc,MCC,0.41 ± 0.13,0.38 ± 0.18,0.16 ± 0.14,0.44 ± 0.15,0.35 ± 0.17
+svc,Sensitivity,0.38 ± 0.11,0.36 ± 0.14,0.10 ± 0.09,0.41 ± 0.14,0.32 ± 0.15
+svc,Specificity,0.94 ± 0.04,0.94 ± 0.04,0.98 ± 0.03,0.94 ± 0.05,0.94 ± 0.05
+voting,AUC,0.75 ± 0.07,0.72 ± 0.10,0.71 ± 0.09,0.76 ± 0.09,0.70 ± 0.12
+voting,F1,0.53 ± 0.12,0.47 ± 0.16,0.18 ± 0.16,0.48 ± 0.16,0.38 ± 0.19
+voting,MCC,0.46 ± 0.14,0.42 ± 0.17,0.22 ± 0.18,0.41 ± 0.14,0.33 ± 0.18
+voting,Sensitivity,0.41 ± 0.12,0.37 ± 0.15,0.11 ± 0.11,0.37 ± 0.16,0.30 ± 0.17
+voting,Specificity,0.95 ± 0.04,0.95 ± 0.04,0.99 ± 0.02,0.95 ± 0.04,0.95 ± 0.04
+xgbclassifier,AUC,0.73 ± 0.07,0.70 ± 0.10,0.70 ± 0.09,0.73 ± 0.10,0.68 ± 0.13
+xgbclassifier,F1,0.47 ± 0.13,0.41 ± 0.15,0.17 ± 0.18,0.44 ± 0.17,0.37 ± 0.20
+xgbclassifier,MCC,0.40 ± 0.13,0.36 ± 0.16,0.19 ± 0.20,0.40 ± 0.14,0.34 ± 0.19
+xgbclassifier,Sensitivity,0.36 ± 0.13,0.32 ± 0.14,0.11 ± 0.12,0.32 ± 0.16,0.28 ± 0.17
+xgbclassifier,Specificity,0.95 ± 0.05,0.95 ± 0.04,0.99 ± 0.02,0.97 ± 0.03,0.97 ± 0.03

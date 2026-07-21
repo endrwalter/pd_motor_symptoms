@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+
+# 1. Ignore all files inside the results folder
+results/**/*
+
+# 2. IMPORTANT: Un-ignore all directories inside results (so Git can look inside them)
+!results/**/
+
+# 3. Now un-ignore your specific files
+!results/**/test_metrics.csv
+!results/**/raw_results_calibration.csv
+!results/**/roc_curve.png
+!results/**/aggregated_calibration_curve*
+!results/**/beeswarmplot_calibrated.png
+!results/**/raw_res_per_patient.csv
+!results/**/calibration_metrics_calibrated.csv
